@@ -1,0 +1,30 @@
+.new{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    margin: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
+}
+.google{
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    margin: 20px 20px 20px 20px;
+    float: right;
+    box-sizing: border-box;
+    border-color: brown;
+    border-width: 15px;
+    border-style: double;
+    cursor: grab;
+    display: inline-block;
+}
+.newtext{
+    font-family:cursive;
+    font-size: 55px;
+    font-weight: lighter;
+    text-decoration: underline;
+    text-transform: lowercase;
+    text-align: center;
+}
