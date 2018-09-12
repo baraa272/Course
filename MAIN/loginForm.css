@@ -9,9 +9,12 @@
     height: auto;
     border-radius: 10px 10px 10px 10px;
 }
-h1{
+
+h1 {
     color: #4db3a5;
+    padding-top: 20px;
 }
+
 .logintxt {
     background-color: #eceef1;
     float: left;
@@ -24,7 +27,7 @@ h1{
 }
 
 .icons {
-   background-color: #eceef1;
+    background-color: #eceef1;
     float: right;
     width: 200px;
     height: 100px;
@@ -34,8 +37,8 @@ h1{
 }
 
 .account {
-    background-color:#6c7a8d;
-   
+    background-color: #6c7a8d;
+
     float: left;
     width: 200px;
     height: 75px;
@@ -45,12 +48,12 @@ h1{
     padding-top: 30px;
     box-sizing: border-box;
     border-bottom-left-radius: 10px;
-    
+
 }
 
 .email {
-     background-color:#6c7a8d;
-    
+    background-color: #6c7a8d;
+
     float: right;
     width: 200px;
     height: 75px;
@@ -60,9 +63,10 @@ h1{
     padding-left: 2px;
     padding-top: 30px;
     border-bottom-right-radius: 10px;
-    
+
 }
-input[type=submit]{
+
+input[type=submit] {
     background-color: #26a69a;
     border: none;
     color: white;
@@ -73,56 +77,67 @@ input[type=submit]{
     transition-duration: 0.3s;
     border-radius: 5px;
 }
-input[type=submit]:hover{
+
+input[type=submit]:hover {
     background-color: skyblue;
     transition-duration: 0.3s;
 }
-input[type=text]{
+
+input[type=text] {
     margin-bottom: 30px;
     width: 250px;
-   box-sizing: border-box;
-    
+    box-sizing: border-box;
+    height: 25px;
+
 }
-input:focus{
-     border-width: 1px;
+
+input:focus {
+    border-width: 1px;
     border-color: black;
     box-sizing: border-box;
     padding: 1px;
 }
-input[type=password]{
+
+input[type=password] {
     margin-bottom: 30px;
     width: 250px;
-   box-sizing: border-box;
+    box-sizing: border-box;
+    height: 25px;
 }
 
-.forgotlink{
+.forgotlink {
     transition-duration: 0.3s;
 }
-.forgotlink:hover{
+
+.forgotlink:hover {
     background-color: skyblue;
     transition-duration: 0.3s;
 }
-.forgotdiv{
-   
+
+.forgotdiv {
+
     display: inline-block;
     width: 200px;
     height: auto;
     float: right;
-    
-    
-    
+
+
+
 }
-.buttondiv{
-    
+
+.buttondiv {
+
     display: inline-block;
     width: 200px;
     height: auto;
     float: left;
 }
-.clear{
+
+.clear {
     clear: both;
 }
-.facebook{
+
+.facebook {
     width: 30px;
     height: 30px;
     display: inline-block;
@@ -133,7 +148,8 @@ input[type=password]{
     border-radius: 50%;
     margin-left: 1px;
 }
-.twitter{
+
+.twitter {
     width: 30px;
     height: 30px;
     display: inline-block;
@@ -144,7 +160,8 @@ input[type=password]{
     border-radius: 50%;
     margin-left: 1px;
 }
-.gmail{
+
+.gmail {
     width: 30px;
     height: 30px;
     display: inline-block;
@@ -155,9 +172,11 @@ input[type=password]{
     border-radius: 50%;
     margin-left: 1px;
 }
-.footer{
+
+.footer {
     color: white;
 }
-.social{
+
+.social {
     color: white;
 }
