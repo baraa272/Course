@@ -1,314 +1,368 @@
-.clear{
+.clear {
     clear: both;
 }
-div{
+
+div {
     box-sizing: border-box;
 }
+
 body {
     padding: 0px;
     margin: 0px;
     font-family: 'PT Sans', sans-serif;
     direction: ltr;
 }
-.header{
+
+.header {
     min-height: 500px;
     background-color: purple;
     width: 100%;
     margin: 0px;
     box-sizing: border-box;
 }
-.content{
+
+.content {
     width: 70%;
     margin: 0px auto;
     padding-top: 20px;
-     text-align: center;
+    text-align: center;
     box-sizing: border-box;
 }
-.content a{
+
+.content a {
     color: white;
 }
-.logo{
+
+.logo {
     float: left;
     display: inline-block;
 }
-.headlist{
+
+.headlist {
     float: right;
     display: inline-block;
 }
-li{
+
+li {
     display: inline-block;
     margin-left: 50px;
     margin-bottom: 50px;
 }
-li:first-child{
+
+li:first-child {
     margin-left: 0px;
 }
-.content h1{
+
+.content h1 {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
     color: white;
 }
-.headerlink{
-   
+
+.headerlink {
+
     text-align: center;
 }
-.headerbutton{
+
+.headerbutton {
     width: 200px;
     background-color: orangered;
     color: white;
     height: 40px;
-    
+
 }
-.services{
+
+.services {
     min-height: 600px;
-    background-color:darkslategray;
+    background-color: darkslategray;
     width: 100%;
     margin: 0px auto;
     box-sizing: border-box;
-    
+
 }
-.services .content{
+
+.services .content {
     width: 70%;
     margin: 0px auto;
     padding-top: 20px;
-     text-align: center;
+    text-align: center;
     box-sizing: border-box;
 }
-.servicesheadtxt{
+
+.servicesheadtxt {
     color: white;
     margin-bottom: 50px;
     margin-top: 50px;
 }
-.services p{
+
+.services p {
     color: white;
 }
-.servicesicons{
+
+.servicesicons {
     width: 80%;
     margin: 0px auto;
     padding-top: 20px;
-     text-align: center;
+    text-align: center;
     box-sizing: border-box;
 }
-.servicesicons div{
+
+.servicesicons div {
     width: 25%;
     display: inline-block;
-    float:left;
+    float: left;
 }
 
-.services h2{
+.services h2 {
     color: white;
-} 
-.services h3{
+}
+
+.services h3 {
     color: white;
-} 
-.flag{
+}
+
+.flag {
     width: 25%;
     display: inline-block;
 }
-.team{
+
+.team {
     min-height: 600px;
-    background-color:white;
+    background-color: white;
     width: 100%;
     margin: 0px auto;
     box-sizing: border-box;
     text-align: center;
     margin-top: 50px;
 }
-.team .container{
-      width: 80%;
+
+.team .container {
+    width: 80%;
     margin: 0px auto;
     background-color: white;
     padding-top: 20px;
-     text-align: center;
+    text-align: center;
     box-sizing: border-box;
-    
+
 }
-.team .imageteam{
+
+.team .imageteam {
     float: left;
     width: 25%;
-    
+
 }
-.teamimg{
+
+.teamimg {
     background-color: dimgrey;
     border-radius: 100px;
 }
-.team .imageteam p{
-   margin-top: 30px;
+
+.team .imageteam p {
+    margin-top: 30px;
 }
-.portfolio{
-     min-height: 800px;
-    background-color:orange;
+
+.portfolio {
+    min-height: 800px;
+    background-color: orange;
     width: 100%;
     margin: 0px auto;
     box-sizing: border-box;
     text-align: center;
     margin-top: 50px;
-  
+
 }
-.portc{
-    
+
+.portc {
+
     width: 90%;
     margin: 0px auto;
     padding-top: 50px;
-     text-align: center;
+    text-align: center;
     box-sizing: border-box;
-    
+
 }
-.firstlaptoprow{
+
+.firstlaptoprow {
     width: 100%;
     text-align: center;
 }
-.lefttoplaptop{
+
+.lefttoplaptop {
     float: left;
     display: inline-block;
     width: 50%;
     box-sizing: border-box;
     text-align: center;
-    
+
 }
-.righttoplaptop{
+
+.righttoplaptop {
     float: right;
     display: inline-block;
     width: 50%;
     box-sizing: border-box;
-     text-align: center;
+    text-align: center;
 }
-.projectsbtn{
+
+.projectsbtn {
     width: 200px;
-    background-color:chartreuse;
+    background-color: chartreuse;
     color: white;
     height: 40px;
-     margin-bottom: 50px;
+    margin-bottom: 50px;
     margin-top: 50px;
 }
-.peoplesay{
+
+.peoplesay {
     background-color: fuchsia;
-     min-height: 600px;
-    
+    min-height: 600px;
+
     width: 100%;
     margin: 0px auto;
     box-sizing: border-box;
     text-align: center;
-    
+
 }
-.peoplec{
-      width: 80%;
+
+.peoplec {
+    width: 80%;
     margin: 0px auto;
     padding-top: 50px;
-     text-align: center;
+    text-align: center;
     box-sizing: border-box;
 }
-.peoplec p{
+
+.peoplec p {
     color: white;
     margin-bottom: 20px;
 }
-.peoplec h2{
+
+.peoplec h2 {
     color: white;
-    
+
 }
-.peoplefirstrow{
+
+.peoplefirstrow {
     width: 75%;
     min-height: 200px;
     margin: 0px auto;
 }
-.firsticon{
+
+.firsticon {
     display: inline-block;
     float: left;
 }
-.iconimg{
+
+.iconimg {
     width: 70px;
     height: 70px;
     border-radius: 50px;
     background-color: aqua;
 }
-.firstdesc{
-     display: inline-block;
+
+.firstdesc {
+    display: inline-block;
     float: left;
     margin-left: 40px;
 }
-.peoplesay h6{
+
+.peoplesay h6 {
     margin-top: -15px;
 }
-.secondicon{
+
+.secondicon {
     display: inline-block;
     float: right;
 }
-.iconimage2{
-     width: 70px;
+
+.iconimage2 {
+    width: 70px;
     height: 70px;
     border-radius: 50px;
     background-color: aqua;
 }
-.seconddesc{
-     display: inline-block;
+
+.seconddesc {
+    display: inline-block;
     float: right;
     margin-left: 40px;
     margin-right: 40px;
 }
-.footer{
-     background-color: blue;
-     min-height: 600px;
+
+.footer {
+    background-color: blue;
+    min-height: 600px;
     width: 100%;
     margin: 0px auto;
     box-sizing: border-box;
     text-align: center;
 }
-.footercontainer{
-       width: 65%;
+
+.footercontainer {
+    width: 65%;
     margin: 0px auto;
     padding-top: 50px;
-     text-align: center;
+    text-align: center;
     box-sizing: border-box;
-    
+
 }
-.footer h2{
+
+.footer h2 {
     color: white;
 }
-.footer p{
+
+.footer p {
     color: white;
 }
-form{
+
+form {
     width: 100%;
     text-align: center;
 }
-.footer input[type=text]{
+
+.footer input[type=text] {
     margin: 10px;
     width: 40%;
-   
-   margin-bottom: 20px;
-    display: inline-block;
-    box-sizing: border-box;
-}
-.footer input[type=email]{
-    margin: 10px;
-    width: 40%;
-    
+
     margin-bottom: 20px;
     display: inline-block;
     box-sizing: border-box;
 }
-textarea{
+
+.footer input[type=email] {
+    margin: 10px;
+    width: 40%;
+
+    margin-bottom: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+textarea {
     width: 82.1%;
     height: 100px;
 }
-.footer input[type=submit]{
+
+.footer input[type=submit] {
     margin-top: 50px;
-  width: 125px;
+    width: 125px;
     height: 50px;
     color: white;
     background-color: aqua;
 }
-.foot{
+
+.foot {
     width: 100%;
     box-sizing: border-box;
     height: 70px;
     background-color: darkblue;
-   margin: 0px auto;
+    margin: 0px auto;
     margin-top: 100px;
     text-align: center;
 }
-.foot li{
+
+.foot li {
     margin: 0px auto;
     margin-top: 25px;
     list-style-type: none;
@@ -316,13 +370,15 @@ textarea{
     margin-right: 50px;
 }
 
-.foot a:hover{
-   text-decoration:underline;
+.foot a:hover {
+    text-decoration: underline;
 }
-.foot a{
+
+.foot a {
     color: white;
-    text-decoration:none;
+    text-decoration: none;
 }
-.foot li:first-child{
-   margin-left: 0px;
+
+.foot li:first-child {
+    margin-left: 0px;
 }
