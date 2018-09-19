@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+
+<head>
+
+
+</head>
+
+<body>
+    <h1>JS CALC</h1>
+    <label>First Num</label>
+    <input id="firstnum">
+    <br>
+    <label>Second Num</label>
+    <input id="secondnum">
+    <br>
+    <input type="button" value="+" onclick="sum()">
+    <input type="button" value="-" onclick="substract()">
+    <input type="button" value="*" onclick="multiply()">
+    <input type="button" value="/" onclick="divide()">
+    <p id="result"></p>
+
+
+    <script>
+        function sum() {
+            x = document.getElementById("firstnum").value;
+            y = document.getElementById("secondnum").value;
+            document.getElementById("result").innerHTML = Number(x) + Number(y);
+        }
+
+        function substract() {
+            x = document.getElementById("firstnum").value;
+            y = document.getElementById("secondnum").value;
+            document.getElementById("result").innerHTML = Number(x) - Number(y);
+        }
+
+        function multiply() {
+            x = document.getElementById("firstnum").value;
+            y = document.getElementById("secondnum").value;
+            document.getElementById("result").innerHTML = Number(x) * Number(y);
+        }
+
+        function divide() {
+            x = document.getElementById("firstnum").value;
+            y = document.getElementById("secondnum").value;
+            document.getElementById("result").innerHTML = Number(x) / Number(y);
+        }
+
+    </script>
+</body>
+
+
+
+
+
+
+
+
+</html>
