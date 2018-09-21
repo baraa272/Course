@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+
+
+<head></head>
+
+<body>
+
+    <h1>JS calc Test</h1>
+    <p id="Welcome"></p>
+    <label>First Num</label>
+    <input type="number" id="num1">
+    <br>
+    <label>Second Num</label>
+    <input type="number" id="num2">
+    <br>
+    <input type="button" value="+" onclick="sum()">
+    <input type="button" value="-" onclick="substract()">
+    <input type="button" value="*" onclick="multiply()">
+    <input type="button" value="/" onclick="divide()">
+    <br>
+    <input type="text" id="result">
+    <script>
+        document.getElementById("Welcome").innerHTML = "This is JScalc Test Training";
+
+        function sum() {
+            var x, y;
+            x = document.getElementById("num1").value;
+            y = document.getElementById("num2").value;
+            var z = Number(x) + Number(y);
+            document.getElementById("result").value = z;
+        }
+
+        function substract() {
+            var x, y;
+            x = document.getElementById("num1").value;
+            y = document.getElementById("num2").value;
+            var z = Number(x) - Number(y);
+            document.getElementById("result").value = z;
+        }
+
+        function multiply() {
+            var x, y;
+            x = document.getElementById("num1").value;
+            y = document.getElementById("num2").value;
+            var z = Number(x) * Number(y);
+            document.getElementById("result").value = z;
+        }
+
+        function divide() {
+            var x, y;
+            x = document.getElementById("num1").value;
+            y = document.getElementById("num2").value;
+            var z = Number(x) / Number(y);
+            document.getElementById("result").value = z;
+        }
+
+    </script>
+</body>
+
+
+
+
+
+</html>
