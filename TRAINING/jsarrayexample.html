@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+
+
+
+</head>
+
+<body>
+    <p id="stringtxt"></p>
+    <button id="btn" onclick="sortnum()">REVERSE</button>
+    <p id="doit"></p>
+
+
+
+    <script>
+        var windows = [95, 98, 2000, 2012, 2008, 2003];
+        document.getElementById("stringtxt").innerHTML = windows.toString();
+
+        function sortnum() {
+            windows.sort(function(a, b) {
+                Number(a) - Number(b);
+            });
+            windows.reverse();
+            document.getElementById("doit").innerHTML = windows.toString();
+        }
+
+    </script>
+</body>
+
+
+
+
+
+
+
+</html>

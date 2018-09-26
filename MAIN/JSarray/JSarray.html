@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head> </head>
+
+<body>
+    <p id="text"></p>
+    <p id="ppp"></p>
+    <p id="pppp"></p> <button id="pushb" onClick="addelement()">push</button>
+    <p id="ppppp"></p>
+    <p id="pppppp"></p>
+    <p id="ppppppp"></p>
+    <button id="sortings" onClick="sorting()">push</button>
+    <p id="sor"></p>
+
+    <button id="sortnum" onClick="sortnum()">sortnum</button>
+    <p id="sortn"></p>
+
+
+    <script>
+        document.getElementById("text").innerHTML = "WINDOWS";
+        var windows = [98, 95, 2000, 2013, 2008];
+        document.getElementById("ppp").innerHTML = windows.toString();
+        windows.pop();
+        document.getElementById("pppp").innerHTML = windows.toString();
+        var cars = ["mercedes", "skoda", "opel", "ford"];
+
+        function addelement() {
+            cars.push("BMW");
+            document.getElementById("ppppp").innerHTML = cars.toString();
+        };
+        document.getElementById("ppppp").innerHTML = cars.toString();
+        var collection = windows.concat(cars);
+        document.getElementById("pppppp").innerHTML = collection.toString();
+
+        var google = windows.slice(1, 3);
+        document.getElementById("ppppppp").innerHTML = google.toString();
+
+        function sorting() {
+
+            cars.sort();
+            cars.reverse();
+            document.getElementById("sor").innerHTML = cars.toString();
+        }
+
+        function sortnum() {
+            windows.sort(function(a, b) {
+                Number(a) - Number(b);
+            });
+            windows.reverse();
+            document.getElementById("sortn").innerHTML = windows.toString();
+        }
+
+    </script>
+</body>
+
+</html>
