@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+
+<head>
+
+
+
+    <style>
+        .container {
+
+            width: 500px;
+            height: 500px;
+            text-align: center;
+            margin: 0px auto;
+
+
+        }
+
+        .slides {
+            display: none;
+        }
+
+    </style>
+
+
+
+</head>
+<div class="container">
+    <div class="slides" id="first"><img src="1d1wwk.jpg" ></div>
+    <div class="slides" id="second"><img src="1hkx5w.jpg" ></div>
+    <div class="slides" id="third"><img src="1j2wbi.jpg" ></div>
+    <div class="slides" id="fourth"><img src="123sj0.jpg" ></div>
+    <button onclick="reverse()">"<<"</button> <button onclick="forward()">">>"</button>
+
+</div>
+
+
+
+
+
+<script>
+    var x = document.getElementById("first");
+
+    document.getElementById("first").style.display = "block";
+    var z = 0;
+
+
+    function forward() {
+        if (z == 0) {
+            z = 1;
+            document.getElementById("first").style.display = "none";
+            document.getElementById("second").style.display = "block";
+        } else if (z == 1) {
+            z = 2;
+            document.getElementById("second").style.display = "none";
+            document.getElementById("third").style.display = "block";
+        } else if (z == 2) {
+            z = 3;
+            document.getElementById("third").style.display = "none";
+            document.getElementById("fourth").style.display = "block";
+        } else if (z == 3) {
+            z = 0;
+            document.getElementById("fourth").style.display = "none";
+            document.getElementById("first").style.display = "block";
+        }
+
+    }
+
+
+    function reverse() {
+        if (z == 0) {
+            z = 3;
+            document.getElementById("first").style.display = "none";
+            document.getElementById("fourth").style.display = "block";
+        } else if (z == 3) {
+            z = 2;
+            document.getElementById("fourth").style.display = "none";
+            document.getElementById("third").style.display = "block";
+        } else if (z == 2) {
+            z = 1;
+            document.getElementById("third").style.display = "none";
+            document.getElementById("second").style.display = "block";
+        } else if (z == 1) {
+            z = 0;
+            document.getElementById("second").style.display = "none";
+            document.getElementById("first").style.display = "block";
+        }
+
+    }
+
+</script>
+
+
+
+
+
+
+</html>
