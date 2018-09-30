@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head></head>
+
+<body>
+
+    <button class="p"></button>
+    <button class="p"></button>
+    <input class="text">
+
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        /*
+            $(".p").click(function() {
+             $(this).hide();
+             alert("HIDDEN");
+
+         });
+                                */
+        $(".p").hover(function() {
+
+            alert("HI WORLD");
+        }, function() {
+            alert("HI WORLD");
+        });
+
+        $(".text").focus(function(){
+            
+            $(this).css("background-color","black");
+            
+});
+    </script>
+
+</body>
+
+
+
+
+
+</html>

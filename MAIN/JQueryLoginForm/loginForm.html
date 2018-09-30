@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<meta charset="utf-8">
+
+<head>
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="loginForm.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="main"> <button class="loginbtn">Log In</button>
+        <form class="formlogin">
+            <h1>Login</h1> <br> <input type="text" placeholder="Tenancy Name"> <br> <input type="text" placeholder="username"> <br> <input type="password" placeholder="Password"> <br>
+            <div class="buttondiv"> <input type="submit" class="logindown" value="Log In"> <input type="checkbox"> <label>Remember Me</label> </div>
+            <div class="forgotdiv"> <a href="" class="forgotlink">Forgot Password?</a> </div>
+            <div class="clear"></div> <br>
+            <div class="logintxt"><label>Login With</label></div>
+            <div class="icons">
+                <div class="facebook"> <a class="social" href="https://facebook.com"><i class="fab fa-facebook-f"></i></a> </div>
+                <div class="twitter"> <a class="social" href="https://twitter.com"><i class="fab fa-twitter"></i></a> </div>
+                <div class="gmail"> <a class="social" href="https://mail.google.com"><i class="fas fa-envelope"></i></a>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="account"><a href="" class="footer">Create Account</a></div>
+            <div class="email"><a href="" class="footer">Email Activation</a></div>
+            <div class="clear"></div>
+        </form>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        $(function() {
+            $(".loginbtn").click(function() {
+                
+                $("formlogin").fadeIn();
+                $(".formlogin").css("display", "block");
+                $(".loginbtn").css("visibility", "hidden");
+                $(".main").css("background", "rgba(0,0,0,.5)");
+            });
+            $(".logindown").click(function() {
+                $(".main").css("background", "rgba(255,255,255)");
+                $(".formlogin").css("display", "none");
+                $(".loginbtn").css("visibility", "visible");
+                alert("Welcome User");
+            });
+        });
+
+    </script>
+</body>
+
+</html>
