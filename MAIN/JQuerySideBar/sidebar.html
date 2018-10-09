@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="sidebar.css" type="text/css">
+</head>
+
+<body>
+
+
+    <a class="windows" href="##">Menu</a>
+    <div class="side">
+
+        <button class="close">x</button>
+        <ul>
+
+            <li>Home</li>
+            <li>Contact</li>
+            <li>Email</li>
+
+
+        </ul>
+
+
+    </div>
+
+
+
+
+
+
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+
+        $(".windows").click(function(){
+            
+            $(".side").addClass("side2");
+            $(".windows").addClass("move");
+            
+        });
+
+ $(".close").click(function(){
+            
+            $(".side").removeClass("side2");
+            $(".windows").removeClass("move");
+        });
+
+
+    </script>
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+
+<head></head>
+
+
+
+<body>
+    <p class="pp">This is A <b>BOLD</b> text</p>
+    <input type="text" class="ppp" value="JQUERY">
+    <button class="btn">show text</button>
+    <button class="btn2">show html</button>
+    <button class="btn3">show input</button>
+
+
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        $(function() {
+            $(".btn").click(function() {
+
+
+                $(".pp").text("This is a changed text");
+
+            });
+
+            $(".btn2").click(function() {
+
+
+                $(".pp").html("<b>This is a changed html</b>");
+            });
+            $(".btn3").click(function() {
+
+
+                $(".ppp").val("Changed Input");
+            });
+        });
+
+    </script>
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+
+<head>
+    <link href="JQueryCss.css" rel="stylesheet" type="text/css">
+</head>
+
+<body> <button class="btn">Click Me</button>
+    <p class="pp">This is A Text</p>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        $(function() {
+            $(".btn").click(function() {
+                $(".pp").toggleClass("red");
+            });
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+.topside{
+    width: 100%;
+    background-color: dimgrey;
+    
+}
+.mainul{
+    list-style: none;
+    padding: 0px;
+}
+.mainul li{
+    float: left;
+    padding: 0;
+    position: relative;
+    margin-right: 20px;
+}
+.sublist{
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    display: none;
+    
+}

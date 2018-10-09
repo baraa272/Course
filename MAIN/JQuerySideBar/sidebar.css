@@ -1,0 +1,34 @@
+.windows{
+     margin-left: 0px;
+    top: 0;
+    transition-duration: 0.4s;
+}
+
+
+
+.move{
+    margin-left: 250px;
+    top: 0;
+    transition-duration: 0.4s;
+}
+
+
+.side{
+    height: 100%;
+    width: 250px;
+    left: -250px;
+    position: fixed;
+    transition-duration: 0.4s;
+    background-color: black;
+    top: 0;
+}
+.side ul{
+    color: white;
+}
+.side2{
+     left: 0;
+    position: fixed;
+     transition-duration: 0.4s;
+    top: 0;
+    background-color: black;
+}
