@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>FirstVUE</title>
+    </head>
+<body>
+    
+    <div id="windows">
+    
+        <span v-if="conditional==0">windows is shit</span>
+        
+        <span v-if="conditional==1">windows is the best</span>
+    </div>
+    </body>
+<script src="vue.js"></script>
+<script>
+ /*  new Vue({
+       
+        el: "#windows",
+        data : {
+            message : "windows is the best"
+        }
+        
+    }); */
+    new Vue({
+        el: "#windows",
+        data : {
+        
+            conditional: 1 
+    }
+    });
+    </script>
+
+
+
+
+
+</html>
