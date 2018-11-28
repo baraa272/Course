@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css.css" type="text/css">
+</head>
+
+<body>
+
+    <div id="windows">{{windows}}</div>
+    <div id="app" v-bind:class="{visiblen:isactive}">what is life??</div>
+    <div id="dos" v-bind:style="{color:Ncolor , fontSize: fontsize + 'px' }">my color is blue</div>
+    <div id="vmodel">
+        <h2>{{txt}}</h2>
+        <input v-model="txt" type="text">
+    </div>
+</body>
+
+
+<script src="vue.js"></script>
+<script>
+    new Vue({
+
+        el: '#windows',
+        data: {
+
+            windows: 'windows is the best'
+
+        }
+
+    });
+    new Vue({
+
+        el: '#app',
+
+        data: {
+
+            isactive: true,
+            Ncolor: 'blue',
+            fontsize: 32
+
+        }
+
+
+    });
+    new Vue({
+
+        el: '#dos',
+
+        data: {
+
+
+            Ncolor: 'blue',
+            fontsize: 32
+
+        }
+
+
+    });
+
+    new Vue({
+
+        el: '#vmodel',
+
+        data: {
+
+
+            txt: 'hi'
+
+        }
+
+
+    });
+
+</script>
+
+
+</html>
